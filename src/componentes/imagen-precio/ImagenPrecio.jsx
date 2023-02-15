@@ -5,7 +5,7 @@ function ImagenPrecio(props) {
    
     return (
         <div className='my-2'>
-            <img src={props.src}/>
+            <img className={props.className} src={props.src}/>
         </div>
     );
 }

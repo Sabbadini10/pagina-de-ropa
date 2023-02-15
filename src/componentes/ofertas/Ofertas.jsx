@@ -4,7 +4,7 @@ import SliderOfertas from './SliderOfertas';
 
 function Ofertas() {
     return (
-        <div>
+        <div className="ofertas-contenedor">
             <p className='ofertas-titulo-prenda text-muted mx-4'>PRENDA LIQUIDACION FINAL</p>
            <Titulos titulo="
            🔥 OFERTAS 🔥" /> 

@@ -1,23 +1,24 @@
-header {
-    width: 100%;
-}
-
 .titulo-header{
     font-size: 12px;
 }
 
 .contenedor-header-1{
     height: 30px;
+    width: 100%;
+    
 }
 
 .contenedor-header-2{
     height: 60px;
+    width: 100%;
     background-color: burlywood !important;
 }
 
 .contenedor-header-3{
     height: 80px;
+    width: 100%;
     font-size: 12px;
+   
 }
 
 .header-loveboo{
@@ -27,3 +28,36 @@ header {
 .header-texto-a{
     font-size: 10px;
 }
+
+
+@media only screen and (min-width: 768px) {
+    header{
+        width: 100%;
+    }
+    .titulo-header{
+        font-size: 15px;
+    }
+    
+    .contenedor-header-1{
+        height: 35px;
+        
+    }
+    
+    .contenedor-header-2{
+        height: 70px;
+    }
+    
+    .contenedor-header-3{
+        height: 90px;
+        font-size: 15px;
+       
+    }
+    
+    .header-loveboo{
+        font-size: 12px;
+    }
+    
+    .header-texto-a{
+        font-size: 12px;
+    }
+  }

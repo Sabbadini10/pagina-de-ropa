@@ -12,12 +12,13 @@ const SliderOfertas = () => {
         <ImagenPrecio className="d-block" src="https://dummyimage.com/300x400/eb1aeb/fff" alt="First slide"/>
         <Precio nombre='Polo Tokio Celeste' descuento="S/40.00"  precio='S/20.00'/>
         </div>
+        <div className='text-center'>
+     <ImagenPrecio className="slider-tablet-imagen" src="https://dummyimage.com/300x400/eb1aeb/fff" alt="First slide"/>
+     <Precio className="slider-tablet-texto" nombre='Cut Out Flame Jean Azul' descuento="S/110" precio='S/65.00'/>
+     </div>
     </div>
     <div className="carousel-item">
-    <div className='text-center'>
-     <ImagenPrecio className="d-block" src="https://dummyimage.com/300x400/eb1aeb/fff" alt="First slide"/>
-     <Precio nombre='Cut Out Flame Jean Azul' descuento="S/110" precio='S/65.00'/>
-     </div>
+    
        </div>
     <div className="carousel-item">
     <div className='text-center'>

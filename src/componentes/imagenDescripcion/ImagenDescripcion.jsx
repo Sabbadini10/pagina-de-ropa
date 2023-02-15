@@ -4,9 +4,8 @@ import './ImagenDescripcion.css'
 function ImagenDescripcion() {
     return (
     <div className='mb-1 contenedor-imagen-descripcion'>
-        <img className='imagen-descripcion-imagen' src='https://dummyimage.com/300x500/6b5a5a/fff' />
-        
-            <p className='text-dark bg-white py-3 px-3'>
+        <img className='imagen-descripcion-imagen' src='https://dummyimage.com/319x400/6b5a5a/fff' />
+            <p className='contenedor-imagen-descripcion-parrafo text-dark bg-white py-3 px-3'>
            <strong>LOVEBOO</strong>  <br/> <br/>
             Es ese espacio donde puedes encontrar el <br/>
             outfit perfecto para cualquier tipo de <br/>

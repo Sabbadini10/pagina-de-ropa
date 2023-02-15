@@ -1,8 +1,10 @@
+footer{
+  width: 100%;
+}
+
 .container-footer {
-    width: 100%;
     display: flex;
     flex-direction: column;
-
   }
 
   .contenedor-footer-1{
@@ -29,6 +31,32 @@
   }
 
 
-  a{
-    text-decoration: none;
+  
+
+  @media only screen and (min-width: 768px) {
+
+    .container-footer {
+      display: flex;
+      flex-direction: row;
+      gap: 30px;
+      margin-top: 15px;
+    }
+  
+    .contenedor-footer-1{
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+  
+  
+    .contenedor-footer-2{
+  
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+  
+  
+    .contenedor-footer-3{
+      gap: 10px;
+      margin-bottom: 10px;
+    }
   }

@@ -12,14 +12,14 @@ const Slider = () => {
      <ImagenPrecio className="d-block" src="https://dummyimage.com/300x400/eb1aeb/fff" alt="First slide"/>
      <Precio nombre='Vestido Bora Maiz' precio='S/60.00'/>
      </div>
+    <div className='text-center'>
+<ImagenPrecio className="slider-tablet-imagen"  src="https://dummyimage.com/300x400/eb1aeb/fff" alt="First slide"/>
+<Precio className='slider-tablet-precio' nombre='Vestido Luna Satin Perla' precio='S/60.00'/>
+</div>
     </div>
     <div className="carousel-item">
-    <div className='text-center'>
-<ImagenPrecio className="d-block"  src="https://dummyimage.com/300x300/eb1aeb/fff" alt="First slide"/>
-<Precio nombre='Vestido Luna Satin Perla' precio='S/60.00'/>
-</div>
 <div className='text-center'>
-<ImagenPrecio className="d-block" src="https://dummyimage.com/300x300/eb1aeb/fff" alt="First slide"/>
+<ImagenPrecio className="d-block" src="https://dummyimage.com/300x400/eb1aeb/fff" alt="First slide"/>
 <Precio nombre='Vestido Safiye Manzana' precio='S/72.00'/>
 </div>
        </div>

@@ -1,3 +1,25 @@
+.ofertas-contenedor{
+    width: 100%;
+}
+
 .ofertas-titulo-prenda{
     font-size: 12px;
+}
+
+.slider-tablet-imagen{
+    display: none;
+}
+
+.slider-tablet-texto{
+display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .slider-tablet-imagen{
+        display: block;
+    }
+
+    .slider-tablet-texto{
+        display: block;
+    }
 }

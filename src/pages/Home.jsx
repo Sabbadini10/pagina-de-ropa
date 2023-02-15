@@ -14,13 +14,14 @@ function Home() {
         return (
             <div className='contenedor-home'>
               <Header />
-             <Banner />
+              <Banner />
              <NuevoWeb />
              <ContenedorVarios />
              <Ofertas />
              <ImagenDescripcion />
              <Siguenos />
              <Footer />
+              
             </div>
         );
     

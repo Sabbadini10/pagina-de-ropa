@@ -7,7 +7,7 @@ import Titulos from '../titulos/Titulos';
 
 function NuevoWeb() {
     return (
-        <div className='d-flex flex-column'>
+        <div className='nuevo-web-contenedor d-flex flex-column'>
            <Titulos titulo="NUEVO EN WEB 💬" />
             <Slider  />
         </div>

@@ -1,4 +1,6 @@
-
+.nuevo-web-contenedor{
+  width: 100%;
+}
 
 hr {
     -moz-border-bottom-colors: none;

@@ -1,6 +1,7 @@
 .contenedor-imagen-siguenos{
     display:inline-block;
     position:relative;
+    width: 100%;
     }
     
     
@@ -31,3 +32,18 @@
             display: none;
         }
         
+
+        @media only screen and (min-width: 768px) {
+            
+        .image-siguenos-celu{
+            margin-left: 0;
+            }
+    
+            .image-siguenos-tablet{
+                display: block;
+            }
+            
+            .image-siguenos-tablet-icon{
+                display: block;
+            }
+        }

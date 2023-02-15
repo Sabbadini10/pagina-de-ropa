@@ -1,9 +1,8 @@
 .contenedor-imagen-descripcion{
 background-color: aliceblue;
-width: auto;
-height: auto;
 display:inline-block;
 position:relative;
+width: 100%
 }
 
 
@@ -15,6 +14,23 @@ position:relative;
     }
     
 
+
     .imagen-descripcion-imagen{
-        width: 319px;
+width:100%
+    }
+
+    @media only screen and (min-width: 768px) {
+
+        .contenedor-imagen-descripcion p{
+           
+           bottom:7em;
+            left: 2em;
+         font-size: 15px;
+            }
+
+            .imagen-descripcion-imagen{
+                height: 600px ;
+                    }
+                
+
     }

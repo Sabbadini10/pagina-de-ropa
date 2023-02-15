@@ -2,10 +2,32 @@
 height: 35px;
 align-self: center;
 border-radius: 50%;
+color: black !important;
 }
 
 .slider-boton-previo{
 height: 35px;
 align-self: center;
 border-radius: 50%;
+color: black !important;
 }
+
+.slider-tablet-imagen{
+    display: none;
+}
+
+.slider-tablet-precio{
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .slider-tablet-imagen{
+        display: block;
+    }
+    
+    .slider-tablet-precio{
+        display: block;
+    }
+    
+ 
+  }
