@@ -1,0 +1,20 @@
+.contenedor-imagen-descripcion{
+background-color: aliceblue;
+width: auto;
+height: auto;
+display:inline-block;
+position:relative;
+}
+
+
+.contenedor-imagen-descripcion p{
+    position: absolute;
+   bottom:7em;
+    left: 2em;
+ font-size: 10px;
+    }
+    
+
+    .imagen-descripcion-imagen{
+        width: 319px;
+    }

@@ -1,0 +1,33 @@
+.contenedor-imagen-siguenos{
+    display:inline-block;
+    position:relative;
+    }
+    
+    
+    .contenedor-imagen-siguenos i{
+        position: absolute;
+       top: 0.8em;
+        right: 0.8em;
+        font-size: 25px;
+        }
+
+        .image-siguenos-celu{
+        margin-left: 6em;
+        }
+
+        .image-siguenos-tablet{
+            display: none;
+        }
+        
+        .image-siguenos-tablet-icon{
+            display: none;
+        }
+
+        .image-siguenos-desktop{
+            display: none;
+        }
+
+        .image-siguenos-desktop-icon{
+            display: none;
+        }
+        

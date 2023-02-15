@@ -1,0 +1,39 @@
+.contenedor-varios{
+    background-color: #0A5625;
+    height: 550px;
+}
+
+.contenedor-varios-imagen{
+display:inline-block;
+position:relative;
+}
+
+
+
+    .contenedor-varios-imagen-celu{
+        width: 319px;
+        height: 450px;
+    }
+
+    .contenedor-varios-imagen  .contenedor-varios-texto-celu{
+        position: absolute;
+        bottom: 10em;
+        right: 5em;
+        text-decoration: none;
+        }
+
+.contenedor-varios-imagen-table{
+    visibility: hidden;
+}
+.contenedor-varios-texto-table{
+    visibility: hidden;
+}
+
+
+.contenedor-varios-imagen-desktop{
+    visibility: hidden;
+}
+
+.contenedor-varios-texto-desktop{
+    visibility: hidden;
+}
