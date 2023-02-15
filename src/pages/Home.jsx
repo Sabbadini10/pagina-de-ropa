@@ -7,11 +7,12 @@ import Ofertas from '../componentes/ofertas/Ofertas';
 import ImagenDescripcion from '../componentes/imagenDescripcion/ImagenDescripcion';
 import Siguenos from '../componentes/siguenos/Siguenos';
 import Footer from '../componentes/footer/Footer';
+import '../App.css'
 
 function Home() {
    
         return (
-            <div>
+            <div className='contenedor-home'>
               <Header />
              <Banner />
              <NuevoWeb />

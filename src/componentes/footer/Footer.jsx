@@ -4,7 +4,7 @@ import './Footer.css'
 function Footer() {
     return (
     <footer class="footer bg-dark mt-5 d-flex flex-column">
-  <div class="container-footer">
+  <div class="container-footer mx-2">
     <div className='d-flex flex-column'>
     <h2 className="text-light mb-3">LOVEBOO</h2>
     </div>

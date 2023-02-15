@@ -3,7 +3,7 @@ import "./Header.css"
 
 function Header() {
   return (
-    <header className="container-fluid w-100">
+    <header className="container">
          <div className='contenedor-header-1 bg-dark py-2 row'>
         <h6 className='titulo-header text-center text-white'>❤ VALENTINE`S DAYS ❤</h6>
     </div>
