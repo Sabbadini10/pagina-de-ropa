@@ -11,7 +11,7 @@ function Siguenos() {
             <p className='text-muted px-2'>INSTAGRAM</p>
             <Titulos titulo='
 SÍGUENOS EN @loveboo.pe'/>
-<div className='contenedor-siguenos-imagenes d-flex flex-row align-items-center justify-content-center my-2 gap-2'>
+<div className='contenedor-siguenos-imagenes d-flex flex-row align-items-center justify-content-center px-5 my-2  gap-1'>
     <ImagenSiguenosCelu src='https://dummyimage.com/230x200/6b5a5a/fff'/>
     <ImagenSiguenosTablet src='https://dummyimage.com/230x200/f01818/fff'/>
     <ImagenSiguenosTablet src='https://dummyimage.com/230x200/969696/fff'/>

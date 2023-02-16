@@ -33,7 +33,7 @@ function Footer() {
     <span><i className="fa-brands fa-facebook"></i></span>
     <span><i className="fa-brands fa-instagram"></i></span>
   </div>
-        <p className='text-center'>© 2022 TODOS LOS DERECHOS RESERVADOS POR LOVEBOO. DESARROLLADO POR MATIAS SABBADINI</p>
+        <p className='contenedor-footer-4 text-center'>© 2022 TODOS LOS DERECHOS RESERVADOS POR LOVEBOO. DESARROLLADO POR MATIAS SABBADINI</p>
     </div>
 </footer>
     );

@@ -14,12 +14,51 @@
 display: none;
 }
 
+.slider-desktop-imagen{
+    display: none;
+}
+
+.slider-desktop-texto{
+display: none;
+}
+
 @media only screen and (min-width: 768px) {
     .slider-tablet-imagen{
         display: block;
     }
 
+
     .slider-tablet-texto{
         display: block;
     }
+
+    .ofertas-titulo-prenda{
+        font-size: 15px;
+    }
+    
+}
+
+@media only screen and (min-width: 1024px) {
+    .slider-desktop-imagen{
+        display: block;
+        width: 220px;
+    }
+
+    .slider-celu-imagen{
+        width: 220px;
+    }
+    
+    .slider-tablet-imagen{
+        display: block;
+        width: 220px;
+    }
+
+    .slider-desktop-texto{
+    display: block;
+    }
+
+    .ofertas-titulo-prenda{
+        font-size: 20px;
+    }
+    
 }

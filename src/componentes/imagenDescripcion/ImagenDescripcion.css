@@ -34,3 +34,16 @@ width:100%
                 
 
     }
+
+    @media only screen and (min-width: 1024px) {
+        .contenedor-imagen-descripcion p{
+           
+            bottom:5em;
+             left: 2em;
+          font-size: 20px;
+             }
+ 
+             .imagen-descripcion-imagen{
+                 height: 650px ;
+                     }
+    }

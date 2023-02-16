@@ -4,3 +4,9 @@
        padding-left: 1.8em;
     }
 }
+
+@media only screen and (min-width: 1024px) {
+    .contenedor-siguenos-imagenes{
+       padding-left: 0;
+    }
+}
