@@ -14,12 +14,7 @@ function Home() {
 		<div className='contenedor-home'>
 			<Header />
 			<Banner />
-			<NuevoWeb />
-			<ContenedorVarios />
-			<Ofertas />
-			<ImagenDescripcion />
-			<Siguenos />
-			<Footer />
+			<NuevoWeb/>
 		</div>
 	);
 }

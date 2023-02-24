@@ -1,46 +1,351 @@
-.titulo-header{
-    font-size: 12px;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+:root{
+   --tipografiaGeneral: 'Montserrat'
+   --tipografiaParrafo: 'Jost', sans-serif;
 }
 
-.contenedor-header-1{
-    height: 30px;
-    width: 100%;
+.titulo-header1{
+    letter-spacing: 1px;
+    color: #fff;
+    font-weight: 600;
+    text-shadow: #fff 0px 0px 5px, #999 0px 0px 10px, #999 0px 0px 15px, #999 0px 0px 20px, #999 0px 0px 30px;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+.titulo-header2{
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: #000;
+    font-size: 10px;
+}
+
+.header-button-bars{
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    border: none !important;
+}
+
+.header-button-bars:hover{
+    border: none !important;
+}
+
+.header-nav-hidden{
+    display: none !important;
+}
+
+.header-texto-bars{
+    font-size: 15px;
+    font-family: sans-serif;
+    text-transform:uppercase ;
+    color: #fff!important;
+    font-weight: 400!important;
+}
+
+.header-texto-bars-2{
+    color: #eedfda;
+    font-family: sans-serif;
+    text-transform:uppercase ;
+}
+.contenedor-header-navbar{
+  display: none;
+}
+
+.header-ul-li-sub-menu a{
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .05em;
+    padding: 10px 20px;
+    display: inline-block;
+    color: #eedfda;
+}
+
+.header-ul-li-sub-menu{
+    border-top: 1px solid #fff;
+}
+
+.header-icon-bars{
+    font-size: 8px;
     
+}
+.contenedor-header-1{
+    background: #000 !important;
+    padding: 5px 0;
+    margin-bottom: 0;
 }
 
 .contenedor-header-2{
-    height: 60px;
-    width: 100%;
-    background-color: burlywood !important;
+    background: #eedfda;
+    padding: 5px 0;
+    margin-bottom: 0;
 }
 
+
 .contenedor-header-3{
-    height: 80px;
     width: 100%;
-    font-size: 12px;
+   margin-left: -20px;
+  display: flex; 
+  flex-direction: row; 
+  align-items:center;
+  justify-content: space-between;
+}
+
+.contenedor-header-redes{
+    display: none;
+}
+
+.header-ul-li{
+    border-top: 1px solid #fff;
    
 }
 
 .header-loveboo{
-    font-size: 10px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    max-height: 45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.header-texto-a{
-    font-size: 10px;
+.header-texto-icon{
+    font-size: 20px;
+   
 }
 
+.sidebar {
+    width: 280px;
+    height: 950px;
+    position: absolute;
+    top: 0em;
+    left: -280px;
+    background-color: #252525;
+    padding: 10px;
+    transition: transform 0.3s ease-in-out;
+    z-index: 2;
+}
+  
+  .sidebar.open {
+    transform: translateX(280px);
+  }
+  
+  .sidebar.closed {
+    transform: translateX(0);
+  }
+  
+  .boton-bars{
+    border: none;
+    background:  #fff;
+    width: 60px;
+  }
+
+  .boton-bars i {
+    font-size: 40px;
+  }
+
+
+  .boton-bars.closed{
+    transform: translateX(-20);
+  }
+  
+  .boton-bars.open{
+    transform: translateX(260px);
+  }
+
+  .header-form-buscador{
+    display: block;
+    position: relative;
+    height: 70px;
+    background-color: #000 !important;
+  }
+
+  .header-form-buscador-input{
+    position: absolute;
+    border-radius: 0%;
+    border: none;
+    background-color: #252525;
+    padding: 1px 5px 1px 10px;
+    height: 40px;
+    width: 225px;
+    margin: 15px 1rem 0 1rem;
+   
+  }
+
+  .header-form-buscador-input::placeholder{
+    background-color: #252525;
+    color: #eedfda;
+
+}
+  
+
+  .header-form-buscador-boton{
+position: absolute;
+top: 5px;
+right: 5%;
+  }
+
+  .header-form-buscador-icon{
+    color: #eedfda;
+  }
+
+  img{
+    max-width: 100%;
+    height: auto;
+  }
+
+.boton-lupa{
+    display: none;
+}
+
+.contenedor-header-navbar{
+    display: none;
+}
+
+.contenedor-imagen-loveboo-desktop{
+  display: none;
+}
+
+.header-contenedor-iconos-desktop{
+  display: none;
+  color: #000;
+}
+
+.header-contenedor-iconos{
+  display: flex;
+  color: #000;
+}
+
+.contenedor-tienda-mayorista{
+display: none;
+}
+
+.contenedor-header-redes-desktop{
+  display: none;
+}
+
+.contenedor-header-redes{
+display:none;
+}
+
+.contenedor-header-redes-desktop-1090{
+  display: none;
+}
+
+.header-li-desktop-1090{
+  display: none;
+}
+
+.contenedor-tienda-mayorista-desktop-1090 {
+  display: none;
+}
+
+
+
+@media only  screen and (min-width: 375px){
+    .sidebar {
+        width: 315px;
+        height: 950px;
+        top: 0em;
+        left: -315px;
+    }
+      
+      .sidebar.open {
+        transform: translateX(315px);
+      }
+      
+      .sidebar.closed {
+        transform: translateX(0);
+      }
+      
+      .boton-bars{
+        border: none;
+        background:  #fff;
+        width: 60px;
+      }
+    
+      .boton-bars i {
+        font-size: 40px;
+      }
+    
+    
+      .boton-bars.closed{
+        transform: translateX(-20);
+      }
+      
+      .boton-bars.open{
+        transform: translateX(300px);
+      }
+
+      .header-loveboo {
+        max-height: 49px;
+        margin: 0 25px 0 25px;
+    }
+
+    .titulo-header2 {
+       
+        font-size: 12px;
+    }
+}
+
+@media only  screen and (min-width: 425px){
+    .sidebar {
+        width: 350px;
+        height: 950px;
+        left: -350px;
+    }
+      
+      .sidebar.open {
+        transform: translateX(350px);
+      }
+      
+      .sidebar.closed {
+        transform: translateX(0);
+      }
+      
+      .boton-bars{
+        border: none;
+        background:  #fff;
+        width: 60px;
+      }
+    
+      .boton-bars i {
+        font-size: 40px;
+      }
+    
+    
+      .boton-bars.closed{
+        transform: translateX(-20);
+      }
+      
+      .boton-bars.open{
+        transform: translateX(325px);
+      }
+}
 
 @media only screen and (min-width: 768px) {
     header{
         width: 100%;
     }
-    .titulo-header{
-        font-size: 15px;
+    .titulo-header1{
+        font-size: 13px;
     }
     
     .contenedor-header-1{
         height: 35px;
-        
+    }
+
+    .titulo-header2 {
+        font-size: 14px;
     }
     
     .contenedor-header-2{
@@ -49,12 +354,49 @@
     
     .contenedor-header-3{
         height: 90px;
-        font-size: 15px;
+       margin-left: -50px;
        
     }
+
+    .sidebar {
+        width: 440px;
+        height: 950px;
+        left: -440px;
+    }
+      
+      .sidebar.open {
+        transform: translateX(440px);
+      }
+      
+      .sidebar.closed {
+        transform: translateX(0);
+      }
+      
+      .boton-bars{
+        border: none;
+        background:  #fff;
+        width: 60px;
+      }
     
-    .header-loveboo{
-        font-size: 12px;
+      .boton-bars i {
+        font-size: 40px;
+      }
+    
+    
+      .boton-bars.closed{
+        transform: translateX(-20);
+      }
+      
+      .boton-bars.open{
+        transform: translateX(420px);
+      }
+    
+.contenedor-imagen-loveboo{
+    margin-left: 8em;
+}
+
+    .header-contenedor-iconos{
+       margin-left: 6em;
     }
     
     .header-texto-a{
@@ -73,21 +415,291 @@
         
     }
     
+    .contenedor-header-navbar{
+        display: flex;
+    }
+
+    .contenedor-header-redes{
+      display:none;
+      
+          }
+    .contenedor-header-redes-desktop {
+display:flex;
+flex-direction: row;
+gap: 15rem;
+justify-content: center;
+margin-left: 5rem;
+    }
+
+    .contenedor-header-redes-desktop i{
+    font-size: 25px;
+          }
     .contenedor-header-2{
         height: 80px;
     }
     
     .contenedor-header-3{
-        height: 80px;
-        font-size: 25px;
-       
-    }
+      width: 100%;
+    display: flex; 
+    flex-direction: column; 
+    align-items:center;
+    gap: 20px;
+  }
+  
     
-    .header-loveboo{
-        font-size: 20px;
-    }
+    
     
     .header-texto-a{
-        font-size: 20px;
+        font-size: 15px;
     }
+.boton-sidebar-hidden{
+    display: none;
+}
+    .header-nav-hidden{
+        display:flex;
+        color: black;
+    }
+
+    .contenedor-imagen-loveboo-desktop{
+      display: flex;
+    }
+
+    .contenedor-imagen-loveboo{
+      display: none;
+    }
+    
+    ul li a{
+  text-decoration: none;
+  color: black;
+  font-family: var(--tipografiaGeneral);
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  padding: 10px 0;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+
+    }
+
+    .header-contenedor-iconos-desktop{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+    }
+
+.boton-lupa{
+  display: flex;
+}
+    .header-contenedor-iconos{
+      display: none;
+    }
+    
+    .contenedor-tienda-mayorista{
+display: flex;
+flex-direction: row;
+width: 100%;
+gap: 10em;
+justify-content: space-around;
+    }
+
+    
+    .contenedor-header-redes{
+      display: flex;
+      flex-direction: row;
+      gap: 59rem;
+      justify-content: space-between;
+    }
+
+    .contenedor-header-navbar{
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      margin-left: 5em;
+      gap: 20px;
+    }
+
+
+    
+  }
+
+
+
+
+  @media only screen and (min-width: 1090px) {
+
+    .titulo-header{
+        font-size: 30px;
+    }
+    
+    .contenedor-header-1{
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .contenedor-header-2{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+  }
+    
+    
+    .contenedor-header-navbar a{
+font-size: 10px;
+    }
+    .contenedor-header-redes{
+      display:none;
+      
+          }
+    .contenedor-header-redes-desktop {
+display:flex;
+flex-direction: row;
+gap: 1rem;
+justify-content: center;
+    }
+
+  
+
+    .contenedor-header-redes-desktop i{
+    font-size: 25px;
+          }
+    .contenedor-header-2{
+        height: 85px;
+    }
+    
+    .contenedor-header-3{
+      width: 97%;
+    display: flex; 
+    flex-direction: row; 
+    align-items:center;
+    margin-left: 20px;
+  }
+  
+    
+    
+    
+    .header-texto-a{
+        font-size: 12px;
+    }
+
+    .header-li-desktop{
+      display: none;
+    }
+
+    .header-nav-hidden{
+        display:flex;
+        color: black;
+    }
+
+    .contenedor-imagen-loveboo-desktop{
+      display: flex;
+      width: 20%;
+    }
+
+    .contenedor-imagen-loveboo{
+      display: none;
+    }
+    
+    ul li a{
+  font-family: var(--tipografiaGeneral);
+  font-size: 8px;
+  letter-spacing: 0em;
+
+    }
+
+    .header-contenedor-iconos-desktop{
+      display:none ;
+      
+    }
+
+.boton-lupa{
+  display: flex;
+}
+    .header-contenedor-iconos{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 5px;
+      width: 20%;
+     
+    }
+
+    .contenedor-tienda-mayorista-desktop{
+     display: none;
+    }
+    
+    .contenedor-tienda-mayorista{
+display: none;
+    }
+
+    .contenedor-tienda-mayorista-desktop-1090 a {
+      font-size: 11px;
+    }
+
+    
+    .contenedor-header-redes{
+      display: none;
+     
+    }
+
+    .contenedor-header-navbar{
+      width: 33%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 0em;
+      gap: 5px;
+    }
+
+    .contenedor-header-navbar a{
+      font-size: 11px;
+    }
+
+ 
+
+    .contenedor-header-redes-desktop-1090{
+      display: flex;
+      width: 20%;
+    }
+
+    .contenedor-header-redes-desktop-1090 a {
+      font-size: 20px;
+    }
+
+    .header-li-desktop-1090{
+      display: flex;
+    }
+    
+    .contenedor-imagen-loveboo-desktop {
+display: flex;
+width: 100%;
+    }
+
+    .header-loveboo{
+      width: 150px;
+      margin-left: -2rem;
+    }
+    .contenedor-imagen-loveboo {
+      display: none;
+          }
+
+          .contenedor-tienda-mayorista-desktop-1090 {
+            display: flex;
+            
+           
+            width: 32%;
+          }
+.contenedor-tienda-mayorista-1090{
+  display: flex;
+  align-items: center;
+            justify-content: center;
+  flex-direction: row;
+  gap: 5px;
+}
+          
   }

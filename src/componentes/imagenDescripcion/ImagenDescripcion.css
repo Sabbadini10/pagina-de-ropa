@@ -1,8 +1,6 @@
 .contenedor-imagen-descripcion{
 background-color: aliceblue;
-display:inline-block;
 position:relative;
-width: 100%
 }
 
 
@@ -15,9 +13,7 @@ width: 100%
     
 
 
-    .imagen-descripcion-imagen{
-width:100%
-    }
+  
 
     @media only screen and (min-width: 768px) {
 

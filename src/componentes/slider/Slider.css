@@ -59,3 +59,23 @@ color: black !important;
         width: 220px;
     }
   }
+
+
+  @media only screen and (min-width: 1365px) {
+
+    .slider-desktop-imagen{
+        width: 350px;
+    }
+    
+    .slider-desktop-precio{
+       font-size: 50px;
+    }
+    
+    .slider-tablet-imagen{
+        width: 350px;
+    }
+
+    .slider-celu-imagen{
+        width: 350px;
+    }
+  }
