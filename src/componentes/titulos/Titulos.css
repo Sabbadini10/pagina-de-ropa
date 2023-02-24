@@ -1,6 +1,17 @@
 .titulos-nombre{
-    margin-top: 10px;
-    font-size: 15px;
+    font-weight: 400 !important;
+    padding: 5px!important;
+    letter-spacing: 0px !important;
+    font-size: 20px !important;
+    font-weight: 300 !important;
+    color: #393939;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.titulos-boton-parrafo{
+    font: 10px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -12,5 +23,14 @@
 @media only screen and (min-width: 1024px) {
     .titulos-nombre{
         font-size: 25px;
+    }
+
+    @media only screen and (min-width: 1200px) {
+        .titulos-nombre{
+            font-size: 30px;
+        }
+        .titulos-boton-parrafo{
+            font: 20px;
+        }
     }
 }

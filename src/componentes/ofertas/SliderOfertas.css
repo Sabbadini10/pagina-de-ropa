@@ -1,64 +1,64 @@
-.ofertas-contenedor{
+.ofertas-contenedor-ofertas{
     width: 100%;
 }
 
-.ofertas-titulo-prenda{
+.ofertas-titulo-prenda-ofertas{
     font-size: 12px;
 }
 
-.slider-tablet-imagen{
+.slider-tablet-imagen-oferta{
     display: none;
 }
 
-.slider-tablet-texto{
+.slider-tablet-texto-oferta{
 display: none;
 }
 
-.slider-desktop-imagen{
+.slider-desktop-imagen-oferta{
     display: none;
 }
 
-.slider-desktop-texto{
+.slider-desktop-texto-oferta{
 display: none;
 }
 
 @media only screen and (min-width: 768px) {
-    .slider-tablet-imagen{
+    .slider-tablet-imagen-oferta{
         display: block;
     }
 
 
-    .slider-tablet-texto{
+    .slider-tablet-texto-oferta{
         display: block;
     }
 
-    .ofertas-titulo-prenda{
+    .ofertas-titulo-prenda-oferta{
         font-size: 15px;
     }
     
 }
 
 @media only screen and (min-width: 1024px) {
-    .slider-desktop-imagen{
+     .slider-desktop-imagen-oferta{
         display: block;
         width: 220px;
     }
 
-    .slider-celu-imagen{
+    .slider-celu-imagen-oferta{
         width: 220px;
     }
     
-    .slider-tablet-imagen{
+    .slider-tablet-imagen-oferta{
         display: block;
         width: 220px;
     }
 
-    .slider-desktop-texto{
+    .slider-desktop-texto-oferta{
     display: block;
     }
 
-    .ofertas-titulo-prenda{
+    .ofertas-titulo-prenda-oferta{
         font-size: 20px;
     }
-    
+     
 }

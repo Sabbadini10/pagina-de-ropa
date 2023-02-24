@@ -1,15 +1,45 @@
-.slider-boton-next{
-height: 35px;
-align-self: center;
-border-radius: 50%;
-color: black !important;
+.contenedor-slider-botones{
+display: flex;
+justify-content: center;
 }
 
-.slider-boton-previo{
-height: 35px;
+.carousel-next{
+width: 50px;
+height: 30px;
+align-self: center;
+margin-right: 1rem;
+border-radius: 50%;
+color: black;
+background-color: rgb(255, 251, 251);
+}
+
+
+
+
+
+.carousel-prev{
+width: 50px;
+height: 30px;
 align-self: center;
 border-radius: 50%;
-color: black !important;
+margin-left: 1rem;
+color: black;
+background-color: rgb(255, 253, 253);
+}
+
+
+.contenedor-celu-imagen{
+    width: 45%;
+    margin-right: 1em ;
+}
+
+.slider-celu-imagen{
+    width: 100%;
+    height: auto;
+}
+
+.slider-celu-precio{
+font-size: 10px;
 }
 
 .slider-tablet-imagen{
@@ -20,16 +50,88 @@ color: black !important;
     display: none;
 }
 
-.slider-desktop-imagen{
+.contenedor-desktop-imagen{
     display: none;
 }
 
-.slider-desktop-precio{
-    display: none;
+
+@media only screen and (min-width: 375px) {
+
+    .carousel-next{
+        width: 30px;
+        height: 30px;
+        margin-right: 1rem;
+        }
+        .carousel-prev{
+        width: 30px;
+        height: 30px;
+        margin-left: 1rem;
+        }
+ 
+        .contenedor-celu-imagen{
+            width: 46%;
+            margin-right: 1em ;
+        }
+        
+        .slider-celu-precio{
+        font-size: 12px;
+        }
 }
+
+@media only screen and (min-width: 425px) {
+
+    .carousel-next{
+        width: 30px;
+        height: 30px;
+        margin-right: 1rem;
+        }
+        
+        .carousel-prev{
+        width: 30px;
+        height: 30px;
+        margin-left: 1rem;
+        }
+   
+        .contenedor-celu-imagen{
+            width: 47%;
+            margin-right: 1em ;
+        }
+        
+        .slider-celu-precio{
+        font-size: 15px;
+        }
+}
+
 @media only screen and (min-width: 768px) {
+    
+    .carousel-next{
+        width: 33px;
+        height: 33px;
+        }
+        
+        .carousel-prev{
+        width: 33px;
+        height: 33px;
+        }
+   
+        .contenedor-celu-imagen{
+            width: 46%;
+            margin-right: 1em ;
+        }
+        
+        .slider-celu-precio{
+        font-size: 15px;
+        }
+
+        .contenedor-tablet-imagen{
+            width: 46%;
+            margin-right: 1em ;
+        }
+
     .slider-tablet-imagen{
         display: block;
+        width: 100%;
+         height: auto;
     }
     
     .slider-tablet-precio{
@@ -42,40 +144,101 @@ color: black !important;
 
   @media only screen and (min-width: 1024px) {
 
-    .slider-desktop-imagen{
-        display: block;
-        width: 220px;
+
+    .carousel-next{
+        width: 35px;
+        height: 35px;
+        padding-top: 5px;
+        padding-bottom: 10px;
+        }
+        
+        .carousel-prev{
+        width: 35px;
+        height: 35px;
+        padding-top: 5px;
+        padding-bottom: 10px;
+        }
+
+    .contenedor-celu-imagen{
+        width: 48%;
+        margin-right: 1em ;
     }
     
-    .slider-desktop-precio{
-        display: block;
-    }
-    
-    .slider-tablet-imagen{
-        width: 220px;
+    .slider-celu-precio{
+    font-size: 18px;
     }
 
-    .slider-celu-imagen{
-        width: 220px;
+    .contenedor-tablet-imagen{
+        width: 48%;
+        margin-right: 1em ;
     }
+
+.slider-tablet-imagen{
+    display: block;
+    width: 100%;
+     height: auto;
+}
+
+.slider-tablet-precio{
+    display: block;
+font-size: 18px;
+}
   }
 
 
-  @media only screen and (min-width: 1365px) {
+  @media only screen and (min-width: 1200px) {
 
-    .slider-desktop-imagen{
-        width: 350px;
+   
+    .carousel-next{
+        width: 35px;
+        height: 35px;
+        padding-top: 5px;
+        padding-bottom: 10px;
+        }
+        
+        .carousel-prev{
+        width: 35px;
+        height: 35px;
+        padding-top: 5px;
+        padding-bottom: 10px;
+        }
+
+    .contenedor-celu-imagen{
+        width: 40%;
+        margin-right: 1em ;
     }
     
-    .slider-desktop-precio{
-       font-size: 50px;
-    }
-    
-    .slider-tablet-imagen{
-        width: 350px;
+    .slider-celu-precio{
+    font-size: 18px;
     }
 
-    .slider-celu-imagen{
-        width: 350px;
+    .contenedor-tablet-imagen{
+        width: 40%;
+        margin-right: 1em ;
     }
-  }
+    .contenedor-desktop-imagen{
+        display: block;
+        width: 40%;
+        margin-right: 1em ;
+    }
+
+.slider-tablet-imagen{
+    display: block;
+    width: 100%;
+     height: auto;
+}
+
+.slider-tablet-precio{
+    display: block;
+font-size: 18px;
+}
+
+.slider-desktop-imagen{
+    display: block;
+    width: 100%;
+}
+.slider-desktop-precio{
+    display: block;
+    font-size: 18px;
+}
+  } 

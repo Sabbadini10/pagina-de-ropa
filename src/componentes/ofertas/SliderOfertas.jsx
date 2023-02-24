@@ -14,7 +14,7 @@ const SliderOfertas = () => {
 				<div className="carousel-item active d-flex flex-row  justify-content-center gap-4">
 					<div className='text-center'>
 						<ImagenPrecio
-							className="slider-celu-imagen d-block"
+							className="slider-celu-imagen-ofertas d-block"
 							src="https://dummyimage.com/300x400/eb1aeb/fff"
 							alt="First slide"
 						/>
@@ -26,12 +26,12 @@ const SliderOfertas = () => {
 					</div>
 					<div className='text-center'>
 						<ImagenPrecio
-							className="slider-tablet-imagen"
+							className="slider-tablet-imagen-ofertas"
 							src="https://dummyimage.com/300x400/eb1aeb/fff"
 							alt="First slide"
 						/>
 						<Precio
-							className="slider-tablet-texto"
+							className="slider-tablet-texto-ofertas"
 							nombre='Cut Out Flame Jean Azul'
 							descuento="S/110"
 							precio='S/65.00'
@@ -39,12 +39,12 @@ const SliderOfertas = () => {
 					</div>
 					<div className='text-center'>
 						<ImagenPrecio
-							className="slider-desktop-imagen"
+							className="slider-desktop-imagen-ofertas"
 							src="https://dummyimage.com/300x400/eb1aeb/fff"
 							alt="First slide"
 						/>
 						<Precio
-							className="slider-desktop-texto"
+							className="slider-desktop-texto-ofertas"
 							nombre='Biker Short Rosa'
 							descuento="S/40.00"
 							precio='S/20.00'
@@ -52,12 +52,12 @@ const SliderOfertas = () => {
 					</div>
 					<div className='text-center'>
 						<ImagenPrecio
-							className="slider-desktop-imagen"
+							className="slider-desktop-imagen-ofertas"
 							src="https://dummyimage.com/300x400/eb1aeb/fff"
 							alt="First slide"
 						/>
 						<Precio
-							className="slider-desktop-texto"
+							className="slider-desktop-texto-ofertas"
 							nombre='Leggin Ali Caffe'
 							descuento="S/40.00"
 							precio='S/20.00'
