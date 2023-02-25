@@ -1,70 +1,343 @@
-.contenedor-imagen-siguenos{
-    display:inline-block;
+.contenedor-imagen-siguenos-general{
     position:relative;
     width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
     }
     
     
-    .contenedor-imagen-siguenos i{
-        position: absolute;
-       top: 0.8em;
-        right: 0.8em;
+    .image-siguenos-celu-icon{
+        position: absolute; 
+        top: 10%; 
+        left: 80%; 
+        transform: translate(-50%, -50%);
         font-size: 25px;
+        color: aliceblue;
         }
 
         .image-siguenos-celu{
-        
+        width: 100%;
+        height: 260px;
+   /*  background-image: url(https://loveboo.pe/wp-content/uploads/sb-instagram-feed-images/280775652_154359503743159_809008309995198389_nfull.jpg); */
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-bottom: 0px;
         }
 
         .image-siguenos-tablet{
-            display: none;
+            width: 100%;
+            height: 260px;
+       /*  background-image: url(https://loveboo.pe/wp-content/uploads/sb-instagram-feed-images/280775652_154359503743159_809008309995198389_nfull.jpg); */
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        padding-bottom: 0px;
         }
         
         .image-siguenos-tablet-icon{
-            display: none;
+            position: absolute; 
+            top: 10%; 
+            left: 80%; 
+        transform: translate(-50%, -50%);
+        font-size: 25px;
+        color: aliceblue;
         }
 
         .image-siguenos-desktop{
-            display: none;
+            width: 100%;
+            height: 260px;
+       /*  background-image: url(https://loveboo.pe/wp-content/uploads/sb-instagram-feed-images/280775652_154359503743159_809008309995198389_nfull.jpg); */
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        padding-bottom: 0px;
         }
 
         .image-siguenos-desktop-icon{
-            display: none;
+            position: absolute; 
+            top: 10%; 
+            left: 80%; 
+            transform: translate(-50%, -50%);
+            font-size: 25px;
+            color: aliceblue;
         }
         
+        @media only screen and (min-width: 375px) {
+            .image-siguenos-celu-icon{
+                position: absolute; 
+                top: 10%; 
+                left: 85%; 
+                transform: translate(-50%, -50%);
+                font-size: 25px;
+                color: aliceblue;
+                }
+        
+                .image-siguenos-celu{
+                width: 100%;
+                height: 280px;
+           
+                }
+        
+                .image-siguenos-tablet{
+                    width: 100%;
+                    height: 280px;
+              
+                }
+                
+                .image-siguenos-tablet-icon{
+                    position: absolute; 
+                    top: 10%; 
+                    left: 85%; 
+                transform: translate(-50%, -50%);
+                font-size: 25px;
+                color: aliceblue;
+                }
+        
+                .image-siguenos-desktop{
+                    width: 100%;
+                    height: 280px;
+                }
+        
+                .image-siguenos-desktop-icon{
+                    position: absolute; 
+                    top: 10%; 
+                    left: 85%; 
+                    transform: translate(-50%, -50%);
+                    font-size: 25px;
+                    color: aliceblue;
+                }
+           
+            }
+
+
+            @media only screen and (min-width: 425px) {
+                .image-siguenos-celu-icon{
+                    position: absolute; 
+                    top: 10%; 
+                    left:87%; 
+                    transform: translate(-50%, -50%);
+                    font-size: 25px;
+                    color: aliceblue;
+                    }
+            
+                    .image-siguenos-celu{
+                    width: 100%;
+                    height: 300px;
+               
+                    }
+            
+                    .image-siguenos-tablet{
+                        width: 100%;
+                        height: 300px;
+                  
+                    }
+                    
+                    .image-siguenos-tablet-icon{
+                        position: absolute; 
+                        top: 10%; 
+                        left:87%; 
+                    transform: translate(-50%, -50%);
+                    font-size: 25px;
+                    color: aliceblue;
+                    }
+            
+                    .image-siguenos-desktop{
+                        width: 100%;
+                        height: 300px;
+                    }
+            
+                    .image-siguenos-desktop-icon{
+                        position: absolute; 
+                        top: 10%; 
+                        left:87%; 
+                        transform: translate(-50%, -50%);
+                        font-size: 25px;
+                        color: aliceblue;
+                    }
+               
+                }
+    
+    
+
 
         @media only screen and (min-width: 768px) {
-            
-        .image-siguenos-celu{
-            margin-left: 0;
-            }
-    
-            .image-siguenos-tablet{
-                display: block;
-            }
-            
-            .image-siguenos-tablet-icon{
-                display: block;
-            }
+            .contenedor-imagen-siguenos-general{
+                position:relative;
+                padding-right: 5px;
+                padding-left: 5px;
+                }
+               .contenedor-image-siguenos-celu{
+                    width: 100%;
+                }
+
+                .contenedor-image-siguenos-tablet{
+                    width: 100%;
+                }
+
+                .contenedor-image-siguenos-desktop{
+                    width: 100%;
+                }
+
+            .image-siguenos-celu-icon{
+                position: absolute; 
+                top: 10%; 
+                left:87%; 
+                transform: translate(-50%, -50%);
+                font-size: 20px;
+                color: aliceblue;
+                }
+        
+                .image-siguenos-celu{
+                width: 100%;
+                height:125px;
+           
+                }
+        
+                .image-siguenos-tablet{
+                    width: 100%;
+                    height: 125px;
+              
+                }
+                
+                .image-siguenos-tablet-icon{
+                    position: absolute; 
+                    top: 10%; 
+                    left:87%; 
+                transform: translate(-50%, -50%);
+                font-size: 20px;
+                color: aliceblue;
+                }
+        
+                .image-siguenos-desktop{
+                    width: 100%;
+                    height: 125px;
+                }
+        
+                .image-siguenos-desktop-icon{
+                    position: absolute; 
+                    top: 10%; 
+                    left:87%; 
+                    transform: translate(-50%, -50%);
+                    font-size: 20px;
+                    color: aliceblue;
+                }
         }
 
         @media only screen and (min-width: 1024px) {
             
-            .image-siguenos-celu{
-                width: 170px;
+            .contenedor-imagen-siguenos-general{
+                position:relative;
+                padding-right: 5px;
+                padding-left: 5px;
+                }
+               .contenedor-image-siguenos-celu{
+                    width: 100%;
                 }
 
-            .image-siguenos-tablet{
-                width: 170px;
-            }
+                .contenedor-image-siguenos-tablet{
+                    width: 100%;
+                }
+
+                .contenedor-image-siguenos-desktop{
+                    width: 100%;
+                }
+
+            .image-siguenos-celu-icon{
+                position: absolute; 
+                top: 10%; 
+                left:87%; 
+                transform: translate(-50%, -50%);
+                font-size: 20px;
+                color: aliceblue;
+                }
+        
+                .image-siguenos-celu{
+                width: 100%;
+                height:175px;
+           
+                }
+        
+                .image-siguenos-tablet{
+                    width: 100%;
+                    height: 175px;
+              
+                }
+                
+                .image-siguenos-tablet-icon{
+                    position: absolute; 
+                    top: 10%; 
+                    left:87%; 
+                transform: translate(-50%, -50%);
+                font-size: 20px;
+                color: aliceblue;
+                }
+        
+                .image-siguenos-desktop{
+                    width: 100%;
+                    height: 175px;
+                }
+        
+                .image-siguenos-desktop-icon{
+                    position: absolute; 
+                    top: 10%; 
+                    left:87%; 
+                    transform: translate(-50%, -50%);
+                    font-size: 20px;
+                    color: aliceblue;
+                }
+        }
+        
+
+        @media only screen and (min-width: 1200px) {
             
-            .image-siguenos-desktop{
-                display: block;
-                width: 170px;
-            }
-            
-            .image-siguenos-desktop-icon{
-                display: block;
-            }
+            .contenedor-imagen-siguenos-general{
+                position:relative;
+                padding-right: 5px;
+                padding-left: 5px;
+                }
+            .image-siguenos-celu-icon{
+                position: absolute; 
+                top: 10%; 
+                left:87%; 
+                transform: translate(-50%, -50%);
+                font-size: 23px;
+                color: aliceblue;
+                }
+        
+                .image-siguenos-celu{
+                width: 100%;
+                height:260px;
+           
+                }
+        
+                .image-siguenos-tablet{
+                    width: 100%;
+                    height: 260px;
+              
+                }
+                
+                .image-siguenos-tablet-icon{
+                    position: absolute; 
+                    top: 10%; 
+                    left:87%; 
+                transform: translate(-50%, -50%);
+                font-size: 23px;
+                color: aliceblue;
+                }
+        
+                .image-siguenos-desktop{
+                    width: 100%;
+                    height: 260px;
+                }
+        
+                .image-siguenos-desktop-icon{
+                    position: absolute; 
+                    top: 10%; 
+                    left:87%; 
+                    transform: translate(-50%, -50%);
+                    font-size: 23px;
+                    color: aliceblue;
+                }
         }
         

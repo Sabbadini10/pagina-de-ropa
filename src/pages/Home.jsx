@@ -18,6 +18,7 @@ function Home() {
 			<ContenedorVarios />
 			<Ofertas />
 			<ImagenDescripcion />
+			<Siguenos />
 		</div>
 	);
 }

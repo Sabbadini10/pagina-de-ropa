@@ -1,12 +1,25 @@
+.contenedor-siguenos-imagenes{
+    width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 2em;
+}
+
 @media only screen and (min-width: 768px) {
     .contenedor-siguenos-imagenes{
-        width: 100%;
-       padding-left: 1.8em;
+       flex-direction: row;
+       align-items: center;
+       justify-content: center;
+       gap: 0em;
     }
 }
 
 @media only screen and (min-width: 1024px) {
     .contenedor-siguenos-imagenes{
-       padding-left: 0;
-    }
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 1em;
+     }
 }
