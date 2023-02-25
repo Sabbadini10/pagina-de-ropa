@@ -6,7 +6,7 @@ import ImagenContenedorDesktop from "./ImagenContenedorDesktop";
 
 function ContenedorVarios() {
 	return (
-		<div className='contenedor-varios mb-3 gap-3 align-items-end'>
+		<div className='contenedor-varios mb-3 gap-4'>
 			<ImagenContenedorCelu
 				src='https://dummyimage.com/200x200/3112e3/fff'
 				href='#'

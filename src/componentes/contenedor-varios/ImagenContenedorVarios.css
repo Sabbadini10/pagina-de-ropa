@@ -1,113 +1,249 @@
 .contenedor-varios{
-    background-color: #0A5625;
-   width: 100%;
-    height: 550px;
+    background-color: #0f3f21;
+    width: 100%;
+    height:auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
+    gap: 1em;
 }
 
 .contenedor-varios-imagen{
-display:inline-block;
 position:relative;
 }
 
 
 
     .contenedor-varios-imagen-celu{
-        width: 320px;
-        height: 450px;
-        margin-left: 2em;
+        margin-top: 20px;
+        width: 100%;
+        height: 400px;
     }
 
-    .contenedor-varios-imagen  .contenedor-varios-texto-celu{
+.contenedor-varios-boton-general{
+padding: 8px 5px;
+width: 52%;
+vertical-align: middle;
+touch-action: manipulation;
+cursor: pointer;
+background-image: none;
+border: 1px solid transparent;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+-webkit-transition: all .2s ease-in-out;
+-moz-transition: all .2s ease-in-out;
+-ms-transition: all .2s ease-in-out;
+-o-transition: all .2s ease-in-out;
+transition: all .2s ease-in-out;
+}
+
+    .contenedor-varios-boton-celu{
         position: absolute;
-        bottom: 10em;
-        right: 5em;
-        text-decoration: none;
-        background-color: aliceblue;
+        top: 70%; 
+        left: 50%; 
+        transform: translate(-50%, -50%);
         }
 
-.contenedor-varios-imagen-table{
-    display: none;
-}
-.contenedor-varios-texto-table{
-    display: none;
-}
+        .contenedor-varios-texto{
+            font-family: 'Montserrat' !important;
+            font-weight: 900;
+            color: #333;
+            text-transform: uppercase;
+            font-size: 11px;
+            line-height: 20px;
+                display: inline-block;
+                letter-spacing: .05em;
+                text-align: center;
+        }
+
+        .contenedor-varios-imagen-table{
+            display: block;
+            width: 100%;
+            height: 400px;
+        }
+        
+        .contenedor-varios-boton-table{
+            position: absolute;
+            top: 70%; 
+            left: 50%; 
+            transform: translate(-50%, -50%);
+            }
 
 
 .contenedor-varios-imagen-desktop{
-    display: none;
+    display: block;
+    width: 100%;
+    height: 400px;
 }
 
-.contenedor-varios-texto-desktop{
-    display: none;
+.contenedor-varios-boton-desktop{
+    position: absolute;
+        top: 70%; 
+        left: 50%; 
+        transform: translate(-50%, -50%);
+}
+
+
+@media only screen and (max-width: 375px){
+   
+        
+    
+}
+
+@media only screen and (max-width: 425px){
+   
 }
 
 @media only screen and (min-width: 768px) {
 
-    .contenedor-varios-imagen-table{
-        display: block;
+    .contenedor-varios-texto{
+        font-size: 13px;
     }
-    .contenedor-varios-texto-table{
+
+    .contenedor-varios-boton-general{
+        height: 55px;
+    }
+    .contenedor-varios{
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 1em;
+    }
+    
+
+    .contenedor-varios-boton-celu{
+        position: absolute;
+        bottom: 10em;
+        right:4em;
+  
+        }
+
+
+    .contenedor-varios-boton-table{
+        position: absolute;
+        bottom: 10em;
+        right:2em;
+        }
+
+
+    .contenedor-varios-boton-desktop{
+        position: absolute;
+        bottom: 10em;
+        right:4em;
+    }
+
+    .contenedor-varios-imagen-celu{
+        margin-top: 20px;
         display: block;
+        width: 100%;
+        height: 350px;
     }
     
     .contenedor-varios-imagen-table{
-        width: 320px;
-        height: 450px;
-        margin-left: 2em;
+        margin-top: 20px;
+        display: block;
+        width: 100%;
+        height: 350px;
     }
 
-    .contenedor-varios-imagen  .contenedor-varios-texto-table{
-        position: absolute;
-        bottom: 10em;
-        right: 5em;
-        text-decoration: none;
-        background-color: aliceblue;
-        }
+    .contenedor-varios-imagen-desktop{
+        margin-top: 20px;
+        display: block;
+        width: 100%;
+        height: 350px;
+    }
+    
 
+
+   
 
 }
 
 @media only screen and (min-width: 1024px) {
+    
+    .contenedor-varios-texto{
+        font-size: 15px;
+    }
+
+    .contenedor-varios-boton-general{
+        height: 60px;
+    }
     .contenedor-varios{
-     
-        display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
-    }
-
-
-    .contenedor-varios-imagen-desktop{
-        display: block;
-    }
-    .contenedor-varios-texto-desktop{
-        display: block;
+        justify-content: space-between;
+        gap: 1em;
     }
     
-    .contenedor-varios-imagen-celu{
-        width: 290px;
-        height: 450px;
-        margin-left: 0;
-    }
-    .contenedor-varios-imagen-table{
-        width: 290px;
-        height: 450px;
-        margin-left: 0;
-    }
 
-
-    .contenedor-varios-imagen-desktop{
-        width: 290px;
-        height: 450px;
-    }
-
-    .contenedor-varios-imagen  .contenedor-varios-texto-desktop{
+    .contenedor-varios-boton-celu{
         position: absolute;
         bottom: 10em;
-        right: 5em;
-        text-decoration: none;
-        background-color: aliceblue;
+        right:4em;
+  
         }
+
+
+    .contenedor-varios-boton-table{
+        position: absolute;
+        bottom: 10em;
+        right:2em;
+        }
+
+
+    .contenedor-varios-boton-desktop{
+        position: absolute;
+        bottom: 10em;
+        right:4em;
+    }
+
+    .contenedor-varios-imagen-celu{
+        margin-top: 20px;
+        display: block;
+        width: 100%;
+        height: 450px;
+    }
+    
+    .contenedor-varios-imagen-table{
+        margin-top: 20px;
+        display: block;
+        width: 100%;
+        height: 450px;
+    }
+
+    .contenedor-varios-imagen-desktop{
+        margin-top: 20px;
+        display: block;
+        width: 100%;
+        height: 450px;
+    }
+    
+}
+
+@media only screen and (min-width: 1200px) {
+    
+    .contenedor-varios-texto{
+        font-size: 18px;
+    }
+
+    .contenedor-varios-boton-general{
+        height: 65px;
+    }
+
+
+    .contenedor-varios-imagen-celu{
+        
+        height: 550px;
+    }
+    
+    .contenedor-varios-imagen-table{
+       
+        height: 550px;
+    }
+
+    .contenedor-varios-imagen-desktop{
+       
+        height: 550px;
+    }
+    
 }
