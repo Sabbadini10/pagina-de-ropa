@@ -6,7 +6,7 @@ function Precio(props) {
 			<a className={props.className} href={props.href}>
 				{props.nombre}
 			</a>
-			<div className={props.className}>
+			<div className='d-flex flex-row justify-content-center gap-2'>
 				<del className={props.className}>{props.descuento}</del>
 				<p className={props.className}>{props.precio}</p>
 			</div>

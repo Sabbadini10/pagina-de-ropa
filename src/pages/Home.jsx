@@ -16,6 +16,7 @@ function Home() {
 			<Banner />
 			<NuevoWeb/>
 			<ContenedorVarios />
+			<Ofertas />
 		</div>
 	);
 }
