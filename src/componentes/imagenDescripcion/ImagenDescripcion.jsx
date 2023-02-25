@@ -8,20 +8,25 @@ function ImagenDescripcion() {
 				className='imagen-descripcion-imagen'
 				src='https://dummyimage.com/319x400/6b5a5a/fff'
 			/>
-			<p className='contenedor-imagen-descripcion-parrafo text-dark bg-white py-3 px-3'>
-				<strong>LOVEBOO</strong> <br /> <br />
-				Es ese espacio donde puedes encontrar el <br />
-				outfit perfecto para cualquier tipo de <br />
-				ocasión y lo más importante sintiéndote <br />
-				cómoda. En Loveboo queremos mostrar lo <br />
-				cómodo y cool que es vestir con nuestras <br />
+			<div className="contenedor-imagen-descripcion-parrafo ">
+			<div className="contenedor-imagen-descripcion-hr"><h4 className="imagen-descripcion-hr" ></h4></div>
+			<h6 className="imagen-descripcion-titulo mb-3"><strong>LOVEBOO</strong></h6> 
+			<p className='imagen-descripcion-parrafo text-dark bg-white'>
+				
+				Es ese espacio donde puedes 
+				encontrar el outfit perfecto para cualquier tipo de 
+				ocasión y lo más importante sintiéndote 
+				cómoda. En Loveboo queremos mostrar lo 
+				cómodo y cool que es vestir con nuestras 
 				prendas en cada temporada.🖤
 				<br />
 				<br />
-				Recuerda que ahora en la web puedes <br />
-				llegar a filtrar tu talla para facilitar aún <br />
+				Recuerda que ahora en la web puedes
+				llegar a filtrar tu talla para facilitar aún 
 				más tu compra 🙌🏻
 			</p>
+			</div>
+			
 		</div>
 	);
 }
