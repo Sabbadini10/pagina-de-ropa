@@ -22,19 +22,37 @@ padding: 0 1em 0 1em;
 }
 
 .boton-ver-mas{
-width: 35%;
+width: 32%;
+}
+
+@media only screen and (max-width:425px){
+    .boton-ver-mas{
+        width: 24%;
+        }
+        
 }
 
 @media only screen and (min-width: 768px) {
     .titulos-nombre{
         font-size: 20px;
     }
+
+    .boton-ver-mas{
+        width: 13%;
+        }
+        
 }
 
 @media only screen and (min-width: 1024px) {
     .titulos-nombre{
         font-size: 25px;
     }
+
+    .boton-ver-mas{
+        width: 10%;
+        }
+        
+}
 
     @media only screen and (min-width: 1200px) {
         .titulos-nombre{
@@ -44,4 +62,3 @@ width: 35%;
             font: 20px;
         }
     }
-}

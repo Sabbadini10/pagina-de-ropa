@@ -14,3 +14,67 @@
     opacity: 1;
     visibility: inherit;
 }
+
+.contenedor-franja-banner{
+   background:  #0c0c0c !important;
+}
+
+.franja-banner{
+    margin: 0 !important;
+    padding: 15px 0!important;
+    left: 0 !important;
+    width: 100% !important;
+    color: #fff;
+    line-height: 1;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: .5px;
+}
+
+.texto-summer-hidden-2{
+    display: none;
+}
+
+.texto-summer-hidden-3{
+    display: none;
+}
+
+.texto-summer-hidden-4{
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .texto-summer-hidden-2{
+        display: flex;
+    }
+
+    .contenedor-banner{
+        height: 350px;
+       
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+
+    .texto-summer-hidden-3{
+        display: flex;
+    }
+
+    .contenedor-banner{
+        height: 400px;
+       
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .texto-summer-hidden-4{
+        display: flex;
+    }
+
+    .contenedor-banner{
+        height: 450px;
+       
+    }
+}
