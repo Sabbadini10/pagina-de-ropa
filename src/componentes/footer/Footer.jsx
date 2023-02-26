@@ -3,46 +3,66 @@ import "./Footer.css";
 
 function Footer() {
 	return (
-		<footer class="footer bg-dark mt-5 d-flex flex-column">
-			<div class="container-footer mx-2">
-				<div className='d-flex flex-column'>
-					<h2 className="text-light mb-3">LOVEBOO</h2>
-				</div>
-				<div className='contenedor-footer-1'>
-					<h5 className='text-light mb-3'>NOSOTROS</h5>
-					<a className="text-light" href='#'>
+		<footer class="footer mt-5 d-flex flex-column">
+			<div class="container-footer">
+			<div className="contenedor-footer-loveboo">
+		<img src="https://loveboo.pe/wp-content/uploads/2022/03/logofooter.png" className='footer-loveboo'/>
+		</div>
+				<div className='contenedor-footer-1 mb-5'>
+					<h4 className='contenedor-footer-subtitulo text-light mb-2'>NOSOTROS</h4>
+					<ul className="contenedor-footer-ul">
+						<li>
+					<a className="contenedor-footer-a text-light" href='#'>
 						TIENDAS FISICAS
 					</a>
-					<a className="text-light" href='#'>
-						TRABAJA CON NOSOTROS
+					</li>
+						<li>
+					<a className="contenedor-footer-a text-light" href='#'>
+						TRABAJA CON NOSOTROS 💬
 					</a>
+					</li>
+						</ul>
 				</div>
-				<div className='contenedor-footer-2'>
-					<h5 className='text-light mb-3'>TIENDA</h5>
-					<a className="text-light" href='#'>
+				<div className='contenedor-footer-2 mb-5'>
+					<h4 className='contenedor-footer-subtitulo text-light mb-2'>TIENDA</h4>
+					<ul className="contenedor-footer-ul">
+					<li>
+						<a className="contenedor-footer-a text-light" href='#'>
 						SHOP
 					</a>
-					<a className="text-light" href='#'>
+					</li>
+					<li>
+					<a className="contenedor-footer-a text-light" href='#'>
 						SALE
 					</a>
-					<a className="text-light" href='#'>
+					</li>
+					<li>
+					<a className="contenedor-footer-a text-light" href='#'>
 						MAYORISTA
 					</a>
+					</li>
+					</ul>
 				</div>
-				<div className='contenedor-footer-3'>
-					<h5 className='text-light mb-3'>INFORMACION</h5>
-					<a className="text-light" href='#'>
+				<div className='contenedor-footer-3 mb-5'>
+					<h4 className='contenedor-footer-subtitulo text-light mb-2'>INFORMACION</h4>
+					<ul className="contenedor-footer-ul">
+						<li>
+						<a className="contenedor-footer-a text-light" href='#'>
 						TERMINOS Y CONDICIONES
 					</a>
-					<a className="text-light" href='#'>
+						</li>
+					<li><a className="contenedor-footer-a text-light" href='#'>
 						POLITICAS DE PRIVACIDAD
+					</a></li>
+					<li>
+					<a className="contenedor-footer-a text-light" href='#'>
+						ENVIOS, CAMBIOS Y DEVOLUCIONES
 					</a>
-					<a className="text-light" href='#'>
-						ENVIOS CAMBIOS Y DEVOLUCIONES
-					</a>
+					</li>
+					</ul>
 				</div>
 			</div>
-			<div className='text-ligth bg-danger mt-5'>
+			<div className='contenedor-footer-4'>
 				<div className='d-flex flex-row justify-content-center gap-3 px-3'>
 					<span>
 						<i className="fa-brands fa-facebook"></i>
@@ -51,9 +71,10 @@ function Footer() {
 						<i className="fa-brands fa-instagram"></i>
 					</span>
 				</div>
-				<p className='contenedor-footer-4 text-center'>
-					© 2022 TODOS LOS DERECHOS RESERVADOS POR LOVEBOO. DESARROLLADO POR
-					MATIAS SABBADINI
+				<p className='text-center'>
+					© 2023 TODOS LOS DERECHOS RESERVADOS POR LOVEBOO. DESARROLLADO POR
+					<a className="text-white mx-1" href="https://portafolio-matias-sabbadini.vercel.app/">MATIAS SABBADINI</a>
+					
 				</p>
 			</div>
 		</footer>

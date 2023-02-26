@@ -19,8 +19,12 @@ function Home() {
 			<Ofertas />
 			<ImagenDescripcion />
 			<Siguenos />
+			<Footer/>
 		</div>
 	);
 }
 
 export default Home;
+
+
+

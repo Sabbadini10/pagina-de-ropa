@@ -1,11 +1,50 @@
 footer{
   width: 100%;
+ 
+    padding-top: 15px;
+  
 }
 
 .container-footer {
     display: flex;
     flex-direction: column;
+    color: #ababab;
+    background: #171616;
+    padding: 0px 5px 0px 15px;
   }
+
+.contenedor-footer-loveboo{
+  max-width: 100%;
+  vertical-align: top;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+  .footer-loveboo{
+    width: 130px;
+  height: 30px;
+  }
+
+
+.contenedor-footer-ul{
+  margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+  .contenedor-footer-subtitulo{
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase !important;
+  }
+
+.contenedor-footer-a{
+  text-transform: uppercase !important;
+    letter-spacing: .8px !important;
+    font-size: 10px;
+}
 
   .contenedor-footer-1{
     display: flex;
@@ -30,66 +69,75 @@ footer{
     margin-bottom: 10px;
   }
 
+  .contenedor-footer-4{
+    background-color: #1b1b1b!important;
+  } 
+
 
   
 
   @media only screen and (min-width: 768px) {
-
     .container-footer {
       display: flex;
       flex-direction: row;
-      gap: 30px;
-      margin-top: 15px;
+      justify-content: space-around;
     }
-  
+
     .contenedor-footer-1{
-      gap: 10px;
-      margin-bottom: 10px;
+     margin-top: 30px;
     }
   
   
     .contenedor-footer-2{
-  
-      gap: 10px;
-      margin-bottom: 10px;
+      margin-top: 30px;
     }
   
   
     .contenedor-footer-3{
-      gap: 10px;
-      margin-bottom: 10px;
+      margin-top: 30px;
+    }
+
+    .contenedor-footer-a{
+        font-size: 11px;
     }
   }
 
   @media only screen and (min-width: 1024px) {
-
-    .container-footer {
-      gap: 50px;
-      margin-top: 15px;
-      font-size: 20px;
-    }
-  
     .contenedor-footer-1{
-      gap: 10px;
-      margin-bottom: 10px;
-      
-    }
-  
-  
-    .contenedor-footer-2{
-  
-      gap: 10px;
-      margin-bottom: 10px;
-    }
-  
-  
-    .contenedor-footer-3{
-      gap: 10px;
-      margin-bottom: 10px;
-    }
+      margin-top: 32px;
+     }
+   
+   
+     .contenedor-footer-2{
+       margin-top: 32px;
+     }
+   
+   
+     .contenedor-footer-3{
+       margin-top: 32px;
+     }
+ 
+     .contenedor-footer-a{
+         font-size: 12px;
+     }
+  }
 
-    .contenedor-footer-4{
-      font-size: 20px;
-      font-weight: 700;
-    }
+  @media only screen and (min-width: 1200px) {
+    .contenedor-footer-1{
+      margin-top: 32px;
+     }
+   
+   
+     .contenedor-footer-2{
+       margin-top: 32px;
+     }
+   
+   
+     .contenedor-footer-3{
+       margin-top: 32px;
+     }
+ 
+     .contenedor-footer-a{
+         font-size: 14px;
+     }
   }
