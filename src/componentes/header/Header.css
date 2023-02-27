@@ -527,7 +527,7 @@ justify-content: space-around;
 
 
 
-  @media only screen and (min-width: 1090px) {
+  @media only screen and (min-width: 1200px) {
 
     .titulo-header{
         font-size: 30px;
@@ -559,7 +559,7 @@ font-size: 10px;
     .contenedor-header-redes-desktop {
 display:flex;
 flex-direction: row;
-gap: 1rem;
+gap: 2rem;
 justify-content: center;
     }
 
@@ -639,6 +639,7 @@ display: none;
 
     .contenedor-tienda-mayorista-desktop-1090 a {
       font-size: 11px;
+      margin-right: 1em;
     }
 
     
@@ -653,7 +654,7 @@ display: none;
       justify-content: center;
       align-items: center;
       margin-left: 0em;
-      gap: 5px;
+      gap: 1em;
     }
 
     .contenedor-header-navbar a{
